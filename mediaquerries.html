@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .querry{
+            width: 1000px;
+            height: 500px;
+            
+        }
+        @media  (max-width:1400) and (min-width:1000) {
+            .querry{
+            background-color: blue;
+            }
+        }
+        @media screen and (max-width:1000) and (min-width:500) {
+            .querry{
+            background-color: red;
+            }
+        }
+        @media screen and (max-width:500) and (min-width:200) {
+            .querry{
+            background-color: green;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="querry"></div>
+</body>
+</html>
